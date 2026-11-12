@@ -1,0 +1,28 @@
+# Виртуальное окружение Python
+.venv/
+venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Секреты и локальные настройки
+.env
+.env.*
+
+# Настройки редакторов
+.vscode/
+.idea/
+
+# Мусор ОС
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Большие данные и выгрузки (класть в data/raw, в репозиторий не попадают)
+data/raw/
+*.parquet
